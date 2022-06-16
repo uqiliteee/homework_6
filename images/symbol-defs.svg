@@ -66,5 +66,11 @@
     <symbol id="icon-modal-close" viewBox="0 0 32 32">
       <path d="M32 3.2l-3.2-3.2-12.8 12.8-12.8-12.8-3.2 3.2 12.8 12.8-12.8 12.8 3.2 3.2 12.8-12.8 12.8 12.8 3.2-3.2-12.8-12.8 12.8-12.8z"></path>
     </symbol>
+    <symbol id="icon-check" viewBox="0 0 42 32">
+      <path style="fill: var(--color1, #fff); stroke: var(--color1, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64" d="M6.272 15.2l-0.224-0.192-0.224 0.192-2.848 2.688-0.256 0.224 0.256 0.256 11.424 10.88 0.192-0.224 24.256-23.136-0.224-0.224-2.816-2.688-0.224-0.224-0.224 0.224-20.96 19.968-8.128-7.744z"></path>
+    </symbol>
+    <symbol id="icon-send" viewBox="0 0 32 32">
+      <path style="fill: var(--color1, #fff)" d="M32 0l-32 18 10.227 3.787 15.773-14.787-12 16.187v8.813l5.733-6.693 7.267 2.693 5-28z"></path>
+    </symbol>
   </defs>
 </svg>
