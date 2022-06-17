@@ -807,6 +807,8 @@ body {
     padding: 12px 12px 12px 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    outline: none;
+    color: var(--secondary-text-color);
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -826,10 +828,14 @@ body {
     left: 15px;
     top: 50%;
     transform: translateY(-50%);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
-.modal-list-input:focus+.modal-icon,
-.modal-list-input:hover+.modal-icon {
-    fill: var(--color-accent);
+.modal-list-input:focus + .modal-icon,
+.modal-list-input:hover+.modal-icon{
+    fill: var(--accent-color);
 }
 .modal-comment {
     resize: none;
