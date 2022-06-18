@@ -251,28 +251,28 @@
            <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
            <label for="name" class="modal-list-label">Имя</label>
             <div class="modal-list-div">
-            <input name="name" type="text" id="name" class="modal-list-input" />
+            <input name="name" type="text" id="name" class="modal-list-input" required/>
             <svg class="modal-icon" width="12" height="12">
                 <use href="./images/symbol-defs.svg#icon-human"></use>
             </svg>
             </div>
            <label for="tel" class="modal-list-label">Телефон</label>
            <div class="modal-list-div">
-            <input name="tel" type="tel" id="tel" class="modal-list-input"/>
+            <input name="tel" type="tel" id="tel" class="modal-list-input" required/>
             <svg class="modal-icon" width="13" height="13">
                 <use href="./images/symbol-defs.svg#icon-form-phone"></use>
             </svg>
            </div>
            <label for="email" class="modal-list-label">Почта</label>
            <div class="modal-list-div">
-           <input name="email" type="email" id="email" class="modal-list-input" />
+           <input name="email" type="email" id="email" class="modal-list-input" required />
            <svg class="modal-icon" width="15" height="12">
             <use href="./images/symbol-defs.svg#icon-email"></use>
            </svg>
            </div>
            <label for="comment" class="modal-list-label">Комментарий</label>
            <textarea name="comment" id="comment" rows="8" placeholder="Введите текст" class="modal-comment"></textarea>
-            <input type="checkbox" name="policy" id="policy" class="policy-checkbox visually-hidden"/>
+            <input type="checkbox" name="policy" id="policy" class="policy-checkbox visually-hidden" required/>
             <label class="policy-label" for="policy"> 
                 <span> <svg class="check-icon" width="16" height=15">
                     <use href="./images/symbol-defs.svg#icon-check"></use>
