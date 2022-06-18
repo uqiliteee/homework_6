@@ -824,9 +824,6 @@ body {
 .modal-list-input:focus {
     border-color: var(--accent-color);
 }
-.modal-list-input:required {
-    color: red;
-}
 .modal-list-div {
     position: relative;
 }
