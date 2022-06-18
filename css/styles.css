@@ -535,6 +535,7 @@ body {
     width: 348px;
     height: 50px;
     padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -776,8 +777,12 @@ body {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) ;
 }
+
 .modal-close-icon {
     fill:rgba(0, 0, 0, 1);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close:hover .modal-close-icon {
    fill: var(--accent-color);
@@ -785,8 +790,6 @@ body {
 
 .modal-form {
     padding: 40px;
-    width: 100%;
-    height: 100%;
 }
 .modal-form-title {
     font-weight: 700;
@@ -821,6 +824,9 @@ body {
 .modal-list-input:focus {
     border-color: var(--accent-color);
 }
+.modal-list-input:required {
+    color: red;
+}
 .modal-list-div {
     position: relative;
 }
@@ -837,7 +843,7 @@ body {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.modal-list-input:focus + .modal-icon,
+.modal-list-input:focus-within + .modal-icon,
 .modal-list-input:hover + .modal-icon{
     fill: var(--accent-color);
 }
